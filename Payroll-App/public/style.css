@@ -39,10 +39,31 @@ a {
     color: blue;
 }
 
+.AA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-
-
-
+}
+.BB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    gap: 2px;
+    padding-bottom: 10px;
+}
+.CC{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c8c3c3;
+    background-color:white;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+ 
 
 /* 
 body {

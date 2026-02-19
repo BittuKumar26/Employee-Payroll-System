@@ -61,37 +61,46 @@
 <body>
 
 <div class="container">
-
-    <h1>Employee Payroll Dashboard</h1>
-
-    <a href="/add" class="btn add-btn">+ Add Employee</a>
-
+    <div class="AA">
+        <h1>Employee Payroll Dashboard</h1>
+        <a href="/add" class="btn add-btn">+ Add Employee</a>
+    </div>
      
+    <div class="BB">
     <div class="cards">
         <div class="card">
+            <div class="CC">
             <h3>Total Employees</h3>
             <p><%= employees.length %></p>
+            </div>
         </div>
+    </div>
 
         <div class="card">
+            <div class="CC">
             <h3>Total Basic Salary</h3>
             <p>
                 ₹<%= employees.reduce((sum, emp) => sum + emp.salary, 0).toFixed(2) %>
             </p>
+            </div>
         </div>
 
         <div class="card">
+            <div class="CC">
             <h3>Total Tax (12%)</h3>
             <p>
                 ₹<%= employees.reduce((sum, emp) => sum + (emp.salary * 0.12), 0).toFixed(2) %>
             </p>
+            </div>
         </div>
 
         <div class="card">
+            <div class="CC">
             <h3>Total Net Salary</h3>
             <p>
                 ₹<%= employees.reduce((sum, emp) => sum + (emp.salary * 0.88), 0).toFixed(2) %>
             </p>
+            </div>
         </div>
     </div>
 
