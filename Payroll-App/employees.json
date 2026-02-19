@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1771478181679,
+    "name": "B2 Bhaiya",
+    "department": "CSE",
+    "salary": 200,
+    "gender": "Male"
+  },
+  {
+    "id": 1771478201497,
+    "name": "Yash Bhai",
+    "department": "Technical",
+    "salary": 30000,
+    "gender": "Male"
+  },
+  {
+    "id": 1771478227233,
+    "name": "Sham Singh",
+    "department": "Electrical",
+    "salary": 10000,
+    "gender": "Female"
+  },
+  {
+    "id": 1771478276429,
+    "name": "Biru Singh",
+    "department": "Mechanical",
+    "salary": 40000,
+    "gender": "Male"
+  }
+]
